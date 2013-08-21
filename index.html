@@ -16,38 +16,25 @@
 
 </head>
 
-<body>
+<body onload="document.myform.firstname.focus()">
   
   <div id='header'>
     <h1>Insult Me!</h1>
-    <h3><em>Seriously, you deserve it.</em></h2>
+    <h3><em>Seriously, you deserve it.</em> </h2>
   </div>
 
   
-<form id="form1">
- What's your name, pal? <input id='input' type="text" name="firstname">
+<form id="form1" name="myform" onkeypress="entercheck(event)">
+ What's your name, pal? <input id='input' type="text" name="firstname" class="inputbox">
 </form>
 
-<div id='bigclicker' onclick="insultme()">
-  
+<div id='bigclicker' onclick="insultme()"> 
     <p id="insulttext">INSULT ME!</p>
-  
 </div>
 
-  <div id='insultarea'>
-    <p id='test'> </p>
-   
+<div id='insultarea'>
+    <p id='test'> </p> 
 </div>
-<!--     <div>
-      <button type="button" onclick="displaydate()">Display that DATE!</button>
-
-      <button type="button" onclick="randomcolour()">Randomise that colour</button>
-
-      <button type="button" onclick="randomcolourbackground()">Randomise that BACKGROUND colour</button>
-
-      <button type="button" onclick="upscaletext()">upscale SOME TEXT!</button>
-
-    </div> -->
 
  
   </body>

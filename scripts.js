@@ -1,11 +1,8 @@
 
-var randomStringsPrefix = ["lazy", "stupid", "slimy","slutty", "smelly", "pompous","dicknosed","racist", "butterface", "creepy", "flatulent",]
-var randomStringsNoun = ["douche", "arse", "turd","rectum","cock","butt", "shit","crotch","bitch", "turd", "prick","slut", "taint", "fuck", "twat", "boner", "shart",]
-var randomStringsSuffix = ["pilot", "canoe", "captain","pirate","hammer","knob", "box", "jockey","nazi","waffle", "goblin", "blossum","biscuit", "clown", "socket", "monster", "hound", "dragon", "balloon", ]
+var randomStringsPrefix = ["lazy", "poopy", "unsightly", "uptight", "screeching", "cumbersome", "dysfunctional", "bewildered", "stupid", "timid", "cheeky", "skeletal", "belligerent", "manky", "fartfaced", "moronic", "incompetent", "slimy", "smelly", "pompous","dicknosed", "butterfaced", "creepy", "flatulent", "dorky", ]
+var randomStringsNoun = ["poo", "douche", "arse", "fecal", "turd", "rectum","cock","butt", "shit","crotch", "turd", "prick", "taint", "twat", "boner", "shart", "dong", "slobber",]
+var randomStringsSuffix = ["pilot", "canoe", "captain", "sherrif", "pirate","hammer","knob", "box", "jockey","nazi","waffle", "goblin", "blossum","biscuit", "canoe", "clown", "socket", "monster", "hound", "dragon", "balloon", ]
 
-function displaydate(){
-	document.getElementById("body").innerHTML=Date();
-}
 
 function randomcolour(){
 	var text = document.getElementById("test");
@@ -16,10 +13,14 @@ function randomcolourbackground(){
 	document.body.style.backgroundColor ='#' + Math.random().toString(16).substring(4);
 }
 
-function upscaletext(){
-	var text = document.getElementById("test");
-	text.style.fontSize='20em';
-}
+function entercheck(event){
+        if (event.which == 13 || event.keyCode == 13) {
+            insultme();
+           return false;
+        }
+       return true;
+ }
+
 
 function insultme(){
 	var name = document.getElementById("input").value;
@@ -27,14 +28,21 @@ function insultme(){
 	randomcolour();
 	randomcolourbackground();
 	updatetext();
-	
+		
 }
+
+// document.getElementById('form1').onkeydown = function(event) {
+//     if (event.keyCode == 13) {
+//         insultme();
+//     }
+// }
+
 function updatetext(){
 	document.getElementById("insulttext").innerHTML="PATHETIC, INSULT ME AGAIN!";
 }
 
 function displayinsult(name){
-	var area = document.getElementById("test").innerHTML="You're a "+ getrandomprefix() +" "+ getrandomnoun()+ "-"+ getrandomsuffix()+", " +name+ "!";
+	document.getElementById("test").innerHTML="You're a "+ getrandomprefix() +" "+ getrandomnoun()+ "-"+ getrandomsuffix()+", " +name+ "!";
 }
 
 function getrandomprefix(){
