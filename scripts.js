@@ -1,5 +1,5 @@
 
-var randomStringsPrefix = ["lazy", "stupid", "insecure","idiotic","slimy","slutty", "smelly", "pompous","dicknosed","racist", "butterface", "creepy", "flatulent",]
+var randomStringsPrefix = ["lazy", "stupid", "slimy","slutty", "smelly", "pompous","dicknosed","racist", "butterface", "creepy", "flatulent",]
 var randomStringsNoun = ["douche", "arse", "turd","rectum","cock","butt", "shit","crotch","bitch", "turd", "prick","slut", "taint", "fuck", "twat", "boner", "shart",]
 var randomStringsSuffix = ["pilot", "canoe", "captain","pirate","hammer","knob", "box", "jockey","nazi","waffle", "goblin", "blossum","biscuit", "clown", "socket", "monster", "hound", "dragon", "balloon", ]
 
@@ -26,7 +26,11 @@ function insultme(){
 	displayinsult(name);
 	randomcolour();
 	randomcolourbackground();
+	updatetext();
 	
+}
+function updatetext(){
+	document.getElementById("insulttext").innerHTML="PATHETIC, INSULT ME AGAIN!";
 }
 
 function displayinsult(name){
