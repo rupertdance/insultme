@@ -1,7 +1,7 @@
 body {background-color: #eee; 
         color: black; 
         margin: 0; 
-        text-align: center;}
+        text-align: center; padding: 20pt}
 
 h1, h2, h3 {font-family:  futura, arial, sans-serif;}
 
@@ -18,12 +18,13 @@ p {font-family:  sans-serif, arial;}
         background-color: #eee; 
         font-family: arial, sans-serif; text-align: center;}
 
-#test{font-size: 8em; 
+#test{font-size: 7em; 
     color: pink;}
 
 #bigclicker{ 
     margin-left: auto;
     margin-right: auto; 
+   
     }
-#insulttext{font-size: 5em;}
+#insulttext{font-size: 3em; border-style: solid; border-width: 2pt; border-radius: 20px}
 #form1{font-family: arial; font-size: 2em; font-style: bold;}
