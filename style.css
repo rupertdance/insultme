@@ -19,7 +19,11 @@ p {font-family:  sans-serif, arial;}
         font-family: arial, sans-serif; text-align: center;}
 
 #test{font-size: 7em; 
-    color: pink;}
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;}
 
 #bigclicker{ 
     margin-left: auto;
