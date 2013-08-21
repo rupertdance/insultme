@@ -34,7 +34,7 @@ function updatetext(){
 }
 
 function displayinsult(name){
-	var area = document.getElementById("test").innerHTML="You're a "+ getrandomprefix() +" "+ getrandomnoun()+ " "+ getrandomsuffix()+" " +name+ "!";
+	var area = document.getElementById("test").innerHTML="You're a "+ getrandomprefix() +" "+ getrandomnoun()+ " "+ getrandomsuffix()+", " +name+ "!";
 }
 
 function getrandomprefix(){
