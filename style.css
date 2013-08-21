@@ -1,0 +1,29 @@
+body {background-color: #eee; 
+        color: black; 
+        margin: 0; 
+        text-align: center;}
+
+h1, h2, h3 {font-family:  futura, arial, sans-serif;}
+
+p {font-family:  sans-serif, arial;}
+    
+#navigation{border-style: dotted;
+        border-width: 1px;
+        border-color: black; 
+        padding:4px; 
+        font-size: 10pt; 
+        color: black; 
+        position:fixed; 
+        width:100%; 
+        background-color: #eee; 
+        font-family: arial, sans-serif; text-align: center;}
+
+#test{font-size: 8em; 
+    color: pink;}
+
+#bigclicker{ 
+    margin-left: auto;
+    margin-right: auto; 
+    }
+#insulttext{font-size: 5em;}
+#form1{font-family: arial; font-size: 2em; font-style: bold;}
