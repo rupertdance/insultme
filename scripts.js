@@ -6,11 +6,19 @@ var randomStringsSuffix = ["pilot", "canoe", "captain", "sherriff", "pirate","ha
 
 function randomcolour(){
 	var text = document.getElementById("test");
-	text.style.color='#' + Math.random().toString(16).substring(4);
+	var red = Math.floor(Math.random() * (256 - 0 + 1)) + 0;
+	var blue = Math.floor(Math.random() * (256 - 0 + 1)) + 0;
+	var green= Math.floor(Math.random() * (256 - 0 + 1)) + 0;
+	text.style.color='rgb('+red+','+green+','+blue+')';
 }
 
 function randomcolourbackground(){
-	document.body.style.backgroundColor ='#' + Math.random().toString(16).substring(4);
+
+	var red = Math.floor(Math.random() * (256 - 0 + 1)) + 0;
+	var blue = Math.floor(Math.random() * (256 - 0 + 1)) + 0;
+	var green = Math.floor(Math.random() * (256 - 0 + 1)) + 0;
+	document.body.style.backgroundColor ='rgb('+red+','+green+','+blue+')';
+
 }
 
 function entercheck(event){
@@ -28,7 +36,6 @@ function insultme(){
 	randomcolour();
 	randomcolourbackground();
 	updatetext();
-		
 }
 
 
