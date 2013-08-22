@@ -20,12 +20,15 @@
   
   <div id='header'>
     <h1>Insult Me!</h1>
+    <hr>
     <h3><em>Seriously, you deserve it.</em> </h2>
+
   </div>
 
   
-<form id="form1" name="myform" onkeypress="entercheck(event)">
- What's your name, pal? <input id='input' type="text" name="firstname" class="inputbox">
+<form id="form1" name="myform" >
+ What's your name, pal? 
+ <input id='input' type="text" name="firstname" class="inputbox" onkeypress="return entercheck(event)">
 </form>
 
 <div id='bigclicker' onclick="insultme()"> 
