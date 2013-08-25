@@ -1,5 +1,5 @@
 
-var randomStringsPrefix = ["lazy", "poopy", "unsightly", "uptight", "screeching", "cumbersome", "dysfunctional", "bewildered", "stupid", "timid", "cheeky", "skeletal", "belligerent", "manky", "fartfaced", "moronic", "incompetent", "slimy", "smelly", "pompous", "dicknosed", "butterfaced", "creepy", "flatulent", "dorky", ]
+var randomStringsPrefix = ["lazy", "poopy", "unsightly", "uptight", "screeching", "cumbersome", "dysfunctional", "bewildered", "stupid", "timid", "cheeky", "skeletal", "belligerent", "manky", "fartfaced", "moronic", "incompetent", "slimy", "smelly", "pompous", "dicknosed", "butterfaced", "creepy", "flatulent", "dorky", "heinous" ]
 var randomStringsNoun = ["poo", "douche", "arse", "fecal", "turd", "rectum","cock","butt", "shit","crotch", "turd", "prick", "taint", "twat", "boner", "shart", "dong", "slobber",]
 var randomStringsSuffix = ["pilot", "canoe", "captain", "sherriff", "pirate","hammer","knob", "box", "jockey","nazi","waffle", "goblin", "blossum","biscuit", "canoe", "clown", "socket", "monster", "hound", "dragon", "balloon", ]
 
