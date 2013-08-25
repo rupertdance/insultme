@@ -3,6 +3,7 @@ var randomStringsPrefix = ["lazy", "poopy", "unsightly", "uptight", "screeching"
 var randomStringsNoun = ["poo", "douche", "arse", "fecal", "turd", "rectum","cock","butt", "shit","crotch", "turd", "prick", "taint", "twat", "boner", "shart", "dong", "slobber",]
 var randomStringsSuffix = ["pilot", "canoe", "captain", "sherriff", "pirate","hammer","knob", "box", "jockey","nazi","waffle", "goblin", "blossum","biscuit", "canoe", "clown", "socket", "monster", "hound", "dragon", "balloon", ]
 
+var randomretorts = ["That's almost a compliment! Try Again!", "Really? Is that the best you can do?", "Come on mate, have a real go!", "Abysmal, insult me again!", "PATHETIC, INSULT ME AGAIN!", "Seriously, is that it? Go again!", "Terrible, insult me again.", "Meh, try again.",] 
 
 function randomcolour(){
 	var text = document.getElementById("test");
@@ -40,7 +41,14 @@ function insultme(){
 
 
 function updatetext(){
-	document.getElementById("insulttext").innerHTML="PATHETIC, INSULT ME AGAIN!";
+	document.getElementById("insulttext").innerHTML=getretort();    //"PATHETIC, INSULT ME AGAIN!";
+}
+
+function getretort(){
+	//randomly select from var of retort strings
+	randomIndex = Math.ceil((Math.random()*randomretorts.length-1));
+    retort = randomretorts[randomIndex];
+	return retort;
 }
 
 function displayinsult(name){

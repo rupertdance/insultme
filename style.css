@@ -5,7 +5,7 @@ body {background-color: #eee;
         padding: 20pt;
         font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;}
 
-/*h1, h2, h3 {font-family:  futura, arial, sans-serif;}*/
+h1, h2, h3 {font-family:  "Helvetica Neue", Helvetica, arial, sans-serif;}
 
 /*p {font-family:  sans-serif, arial;}*/
     
@@ -23,12 +23,15 @@ body {background-color: #eee;
     margin-right: auto; 
     cursor: pointer;
     background-color: #eee; 
-    opacity:0.4;
-    filter:alpha(opacity=40);
+    opacity:0.7;
+    filter:alpha(opacity=70);
     border-style: solid; 
-    border-width: 2pt; 
+    border-width: 2pt;
+    font-style: bold; 
+    font: futura;
     border-radius: 20px;
-font-size: 2em;}
+    font-size: 2em;}
+
     /*display: block;*/
     
 
