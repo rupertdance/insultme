@@ -53,7 +53,7 @@ function getretort(){
 
 function displayinsult(name){
     var prefix = getrandomprefix();
-    var article = isVowel(prefix.charAt(0)) ? "an " : "n " + prefix;
+    var article = isVowel(prefix.charAt(0)) ? "an" : "a";
     var area = document.getElementById("test").innerHTML = "You're " + article + " " + prefix + " " + getrandomnoun() + " " + getrandomsuffix() + " " + name + "!";
 }
 
