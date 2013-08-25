@@ -1,5 +1,5 @@
 
-var randomStringsPrefix = ["lazy", "poopy", "unsightly", "uptight", "screeching", "cumbersome", "dysfunctional", "bewildered", "stupid", "timid", "cheeky", "skeletal", "belligerent", "manky", "fartfaced", "moronic", "incompetent", "slimy", "smelly", "pompous","dicknosed", "butterfaced", "creepy", "flatulent", "dorky", ]
+var randomStringsPrefix = ["a lazy", "a poopy", "an unsightly", "an uptight", "a screeching", "a cumbersome", "a dysfunctional", "a bewildered", "a stupid", "a timid", "a cheeky", "a skeletal", "a belligerent", "a manky", "a fartfaced", "a moronic", "an incompetent", "a slimy", "a smelly", "a pompous","a dicknosed", "a butterfaced", "a creepy", "a flatulent", "a dorky", ]
 var randomStringsNoun = ["poo", "douche", "arse", "fecal", "turd", "rectum","cock","butt", "shit","crotch", "turd", "prick", "taint", "twat", "boner", "shart", "dong", "slobber",]
 var randomStringsSuffix = ["pilot", "canoe", "captain", "sherriff", "pirate","hammer","knob", "box", "jockey","nazi","waffle", "goblin", "blossum","biscuit", "canoe", "clown", "socket", "monster", "hound", "dragon", "balloon", ]
 
@@ -52,7 +52,7 @@ function getretort(){
 }
 
 function displayinsult(name){
-	document.getElementById("test").innerHTML="You're a "+ getrandomprefix() +" "+ getrandomnoun()+ "-"+ getrandomsuffix()+", " +name+ "!";
+	document.getElementById("test").innerHTML="You're "+ getrandomprefix() +" "+ getrandomnoun()+ "-"+ getrandomsuffix()+", " +name+ "!";
 }
 
 function getrandomprefix(){
