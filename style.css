@@ -2,15 +2,17 @@ body {background-color: #eee;
         color: black; 
         margin: 0; 
         text-align: center; 
-        padding: 20pt;
-        font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;}
+        padding: 5pt;
+        font-weight: bold; 
+        font-family: helvetica, arial, sans-serif;}
 
-h1, h2, h3 {font-family:  "Helvetica Neue", Helvetica, arial, sans-serif;}
+h1{font-family: helvetica, arial, sans-serif;
+font-weight: bold;
+font-size: 60px;
+line-height: 10px;}
 
-/*p {font-family:  sans-serif, arial;}*/
     
-#test{font-size: 7em;
-    font-style: bold; 
+#test{font-size: 6em;
     text-shadow:
     -1px -1px 0 #000,
     1px -1px 0 #000,
@@ -27,8 +29,7 @@ h1, h2, h3 {font-family:  "Helvetica Neue", Helvetica, arial, sans-serif;}
     filter:alpha(opacity=70);
     border-style: solid; 
     border-width: 2pt;
-    font-style: bold; 
-    font: futura;
+    font-weight: bold; 
     border-radius: 20px;
     font-size: 2em;}
 
@@ -45,7 +46,8 @@ user-select: none;}
    
 
 #form1{font-size: 2em; 
-    font-style: bold;
 padding-bottom: 20pt;}
 
-.inputbox{font-size: 12pt; width: 150px; height: 20px; }
+.inputbox{font-size: 12pt; 
+    width: 150px; 
+    height: 20px; }
